@@ -22,7 +22,7 @@ class parc:
         self.listeVoitures.append(voiture)
         print(f"La voiture {voiture.matricule} est entrée dans le parc.")
 
-    def sortirVoiture(self, voiture: Voiture) -> None:
+    def sortirVoiture(self, voiture: voiture) -> None:
         # Vérifier si la voiture est présente
         for v in self.listeVoitures:
             if v.matricule == voiture.matricule:
