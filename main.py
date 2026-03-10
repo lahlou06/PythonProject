@@ -37,4 +37,8 @@ v1 = voiture("ABC 123", "Toyota", "Rouge")
 v2 = voiture("AYAX 410", "Honda", "Noir")
 v3 = voiture("OOOSAM", "Ford", "Blanc")
 v4 = voiture("5OFL01", "BMW", "Bleu")
+parc.entrerVoiture(v1)
+parc.entrerVoiture(v2)
+parc.entrerVoiture(v3)
+
 
