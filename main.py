@@ -3,5 +3,7 @@ class voiture:
         self.matricule = matricule
         self.marque = marque
         self.couleur = couleur
-        
+
+        def afficherInformations(self) -> None:
+            print(f"Matricule : {self.matricule} | Marque : {self.marque} | Couleur : {self.couleur}")
 
