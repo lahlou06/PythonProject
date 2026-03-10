@@ -7,3 +7,10 @@ class voiture:
         def afficherInformations(self) -> None:
             print(f"Matricule : {self.matricule} | Marque : {self.marque} | Couleur : {self.couleur}")
 
+class parc:
+    def __init__(self, id, adresse, capacite):
+        self.id = id
+        self.adresse = adresse
+        self.capacite = capacite
+        self.listeVoiture = []
+        
