@@ -33,4 +33,8 @@ class parc:
         return self.capacite - len(self.listeVoitures)
 
     parc = parc(1, "Toronto", 3)
+v1 = voiture("ABC 123", "Toyota", "Rouge")
+v2 = voiture("AYAX 410", "Honda", "Noir")
+v3 = voiture("OOOSAM", "Ford", "Blanc")
+v4 = voiture("5OFL01", "BMW", "Bleu")
 
