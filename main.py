@@ -21,4 +21,14 @@ class parc:
 
         self.listeVoitures.append(voiture)
         print(f"La voiture {voiture.matricule} est entrée dans le parc.")
-        print(f"Places libres : {self.calculerNbrPlacesLibres()}")
+
+    def sortirVoiture(self, voiture: Voiture) -> None:
+        # Vérifier si la voiture est présente
+        for v in self.listeVoitures:
+            if v.matricule == voiture.matricule:
+                self.listeVoitures.remove(v)
+                print(f"La voiture {voiture.matricule} est sortie du parc.")
+
+    def calculerNbrPlacesLibres(self) -> int:
+        return self.capacite - len(self.listeVoitures)
+
