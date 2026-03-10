@@ -40,5 +40,5 @@ v4 = voiture("5OFL01", "BMW", "Bleu")
 parc.entrerVoiture(v1)
 parc.entrerVoiture(v2)
 parc.entrerVoiture(v3)
-
+parc.sortirVoiture(v2)
 
