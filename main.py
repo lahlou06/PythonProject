@@ -13,4 +13,12 @@ class parc:
         self.adresse = adresse
         self.capacite = capacite
         self.listeVoiture = []
-        
+
+    def entrerVoiture(self, voiture) -> None:
+        if len(self.listeVoitures) >= self.capacite:
+            print("Erreur : le parc est plein.")
+            return
+
+        self.listeVoitures.append(voiture)
+        print(f"La voiture {voiture.matricule} est entrée dans le parc.")
+        print(f"Places libres : {self.calculerNbrPlacesLibres()}")
